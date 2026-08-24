@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# uv / venv (recreated via `uv sync`; .python-version and uv.lock stay tracked)
+.venv/
+.venv-*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Raw data dumps — large exports shouldn't live in git history.
+# cartel_network/*.csv are small reference datasets and are tracked intentionally.
+LATAM*.csv

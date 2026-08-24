@@ -1,0 +1,128 @@
+﻿Edge,Node,Group,RNode,RGroup,weight
+E10044,N10025,Cártel Jalisco Nueva Generación (CJNG),N10076,La Nueva Familia Michoacana,13
+E10083,N10076,La Nueva Familia Michoacana,N10025,Cártel Jalisco Nueva Generación (CJNG),13
+E10013,N10013,Cártel de Sinaloa,N10025,Cártel Jalisco Nueva Generación (CJNG),7
+E10034,N10025,Cártel Jalisco Nueva Generación (CJNG),N10013,Cártel de Sinaloa,7
+E10026,N10019,Cártel del Noreste,N10025,Cártel Jalisco Nueva Generación (CJNG),6
+E10038,N10025,Cártel Jalisco Nueva Generación (CJNG),N10019,Cártel del Noreste,6
+E10040,N10025,Cártel Jalisco Nueva Generación (CJNG),N10032,Cárteles Unidos,6
+E10056,N10032,Cárteles Unidos,N10025,Cártel Jalisco Nueva Generación (CJNG),6
+E10068,N10057,Fuerza Anti-Unión Tepito,N10081,La Unión Tepito,5
+E10088,N10081,La Unión Tepito,N10057,Fuerza Anti-Unión Tepito,5
+E10001,N10003,Caballeros Templarios,N10063,Guerreros Unidos,4
+E10047,N10025,Cártel Jalisco Nueva Generación (CJNG),N10107,Los Mayas,4
+E10072,N10063,Guerreros Unidos,N10003,Caballeros Templarios,4
+E10102,N10107,Los Mayas,N10025,Cártel Jalisco Nueva Generación (CJNG),4
+E10120,N10143,Sangre Nueva Zeta,N10134,Los Zetas,4
+E10003,N10004,Cártel de Caborca,N10091,Los Chapitos,3
+E10019,N10015,Cártel de Tláhuac,N10025,Cártel Jalisco Nueva Generación (CJNG),3
+E10021,N10017,Cártel del Golfo,N10019,Cártel del Noreste,3
+E10025,N10019,Cártel del Noreste,N10017,Cártel del Golfo,3
+E10030,N10022,Cártel del Sur,N10130,Los Tlacos (Cartel de la Sierra),3
+E10031,N10025,Cártel Jalisco Nueva Generación (CJNG),N10003,Caballeros Templarios,3
+E10036,N10025,Cártel Jalisco Nueva Generación (CJNG),N10015,Cártel de Tláhuac,3
+E10039,N10025,Cártel Jalisco Nueva Generación (CJNG),N10027,Cártel Nueva Plaza,3
+E10041,N10025,Cártel Jalisco Nueva Generación (CJNG),N10040,El Cano,3
+E10045,N10025,Cártel Jalisco Nueva Generación (CJNG),N10081,La Unión Tepito,3
+E10052,N10025,Cártel Jalisco Nueva Generación (CJNG),N10150,Zetas Vieja Escuela,3
+E10053,N10027,Cártel Nueva Plaza,N10025,Cártel Jalisco Nueva Generación (CJNG),3
+E10059,N10040,El Cano,N10025,Cártel Jalisco Nueva Generación (CJNG),3
+E10074,N10063,Guerreros Unidos,N10076,La Nueva Familia Michoacana,3
+E10075,N10063,Guerreros Unidos,N10120,Los Rojos,3
+E10084,N10076,La Nueva Familia Michoacana,N10063,Guerreros Unidos,3
+E10087,N10081,La Unión Tepito,N10025,Cártel Jalisco Nueva Generación (CJNG),3
+E10096,N10091,Los Chapitos,N10004,Cártel de Caborca,3
+E10097,N10091,Los Chapitos,N10097,Los Dámasos/Fuerzas especiales Dámaso,3
+E10099,N10097,Los Dámasos/Fuerzas especiales Dámaso,N10091,Los Chapitos,3
+E10103,N10107,Los Mayas,N10120,Los Rojos,3
+E10105,N10120,Los Rojos,N10107,Los Mayas,3
+E10108,N10130,Los Tlacos (Cartel de la Sierra),N10022,Cártel del Sur,3
+E10126,N10150,Zetas Vieja Escuela,N10025,Cártel Jalisco Nueva Generación (CJNG),3
+E10004,N10005,Cártel de Juárez,N10013,Cártel de Sinaloa,2
+E10006,N10008,Cártel de los Beltrán Leyva,N10019,Cártel del Noreste,2
+E10009,N10012,Cártel de Santa Rosa de Lima,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10010,N10012,Cártel de Santa Rosa de Lima,N10080,La Unión León,2
+E10011,N10013,Cártel de Sinaloa,N10005,Cártel de Juárez,2
+E10016,N10013,Cártel de Sinaloa,N10076,La Nueva Familia Michoacana,2
+E10018,N10014,Cártel de Telpacatepec,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10024,N10019,Cártel del Noreste,N10008,Cártel de los Beltrán Leyva,2
+E10028,N10019,Cártel del Noreste,N10134,Los Zetas,2
+E10029,N10019,Cártel del Noreste,N10150,Zetas Vieja Escuela,2
+E10033,N10025,Cártel Jalisco Nueva Generación (CJNG),N10012,Cártel de Santa Rosa de Lima,2
+E10035,N10025,Cártel Jalisco Nueva Generación (CJNG),N10014,Cártel de Telpacatepec,2
+E10043,N10025,Cártel Jalisco Nueva Generación (CJNG),N10070,La Barredora 24/7,2
+E10046,N10025,Cártel Jalisco Nueva Generación (CJNG),N10087,Los Blancos de Troya,2
+E10049,N10025,Cártel Jalisco Nueva Generación (CJNG),N10131,Los Tlahuicas,2
+E10050,N10025,Cártel Jalisco Nueva Generación (CJNG),N10133,Los Viagras,2
+E10051,N10025,Cártel Jalisco Nueva Generación (CJNG),N10134,Los Zetas,2
+E10058,N10038,Ejército Revolucionario del Pueblo Insurgente (ERPI),N10063,Guerreros Unidos,2
+E10060,N10044,El Jardinero,N10089,Los Cabrera,2
+E10067,N10057,Fuerza Anti-Unión Tepito,N10076,La Nueva Familia Michoacana,2
+E10070,N10058,Gente Nueva,N10075,La Línea,2
+E10073,N10063,Guerreros Unidos,N10038,Ejército Revolucionario del Pueblo Insurgente (ERPI),2
+E10079,N10069,La Bandera,N10130,Los Tlacos (Cartel de la Sierra),2
+E10081,N10075,La Línea,N10058,Gente Nueva,2
+E10082,N10076,La Nueva Familia Michoacana,N10013,Cártel de Sinaloa,2
+E10086,N10080,La Unión León,N10012,Cártel de Santa Rosa de Lima,2
+E10089,N10082,Lenin Canchola,N10135,Maestrin,2
+E10091,N10087,Los Blancos de Troya,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10095,N10089,Los Cabrera,N10044,El Jardinero,2
+E10098,N10091,Los Chapitos,N10122,Los Rusos,2
+E10109,N10130,Los Tlacos (Cartel de la Sierra),N10069,La Bandera,2
+E10110,N10131,Los Tlahuicas,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10112,N10133,Los Viagras,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10113,N10134,Los Zetas,N10019,Cártel del Noreste,2
+E10114,N10134,Los Zetas,N10025,Cártel Jalisco Nueva Generación (CJNG),2
+E10117,N10135,Maestrin,N10082,Lenin Canchola,2
+E10125,N10150,Zetas Vieja Escuela,N10019,Cártel del Noreste,2
+E10002,N10004,Cártel de Caborca,N10013,Cártel de Sinaloa,1
+E10005,N10006,Cártel de Los Alemanes,N10017,Cártel del Golfo,1
+E10007,N10008,Cártel de los Beltrán Leyva,N10025,Cártel Jalisco Nueva Generación (CJNG),1
+E10008,N10010,Cártel de Los Tequileros,N10076,La Nueva Familia Michoacana,1
+E10012,N10013,Cártel de Sinaloa,N10007,Cártel de Los Arellano Félix,1
+E10014,N10013,Cártel de Sinaloa,N10030,Cártel Tijuana Nueva Generación,1
+E10015,N10013,Cártel de Sinaloa,N10033,"Célula liderada por Alfonso Arzate García, El Aquiles",1
+E10017,N10013,Cártel de Sinaloa,N10091,Los Chapitos,1
+E10020,N10015,Cártel de Tláhuac,N10081,La Unión Tepito,1
+E10022,N10017,Cártel del Golfo,N10134,Los Zetas,1
+E10023,N10018,Cártel del Golfo Nueva Era,N10017,Cártel del Golfo,1
+E10027,N10019,Cártel del Noreste,N10108,Los Metros,1
+E10032,N10025,Cártel Jalisco Nueva Generación (CJNG),N10007,Cártel de Los Arellano Félix,1
+E10037,N10025,Cártel Jalisco Nueva Generación (CJNG),N10017,Cártel del Golfo,1
+E10042,N10025,Cártel Jalisco Nueva Generación (CJNG),N10063,Guerreros Unidos,1
+E10048,N10025,Cártel Jalisco Nueva Generación (CJNG),N10120,Los Rojos,1
+E10054,N10029,Cártel San Luis Potosí Nueva Generación (CSLPNG),N10017,Cártel del Golfo,1
+E10055,N10029,Cártel San Luis Potosí Nueva Generación (CSLPNG),N10150,Zetas Vieja Escuela,1
+E10057,N10035,CJNG Comando la Mancha,N10013,Cártel de Sinaloa,1
+E10061,N10050,El Robert,N10025,Cártel Jalisco Nueva Generación (CJNG),1
+E10062,N10051,El Señor de la V,N10120,Los Rojos,1
+E10063,N10053,El Señorón,N10025,Cártel Jalisco Nueva Generación (CJNG),1
+E10064,N10054,El Temerario,N10120,Los Rojos,1
+E10065,N10056,"Francisco Javier Arvizo Márquez, El Jaguar",N10005,Cártel de Juárez,1
+E10066,N10056,"Francisco Javier Arvizo Márquez, El Jaguar",N10075,La Línea,1
+E10069,N10058,Gente Nueva,N10005,Cártel de Juárez,1
+E10071,N10062,Güero Fresa,N10015,Cártel de Tláhuac,1
+E10076,N10064,Juan Balta,N10081,La Unión Tepito,1
+E10077,N10066,La Anti-Unión o La Rosa Nueva,N10081,La Unión Tepito,1
+E10078,N10067,La banda de El Tigre,N10030,Cártel Tijuana Nueva Generación,1
+E10080,N10075,La Línea,N10013,Cártel de Sinaloa,1
+E10085,N10079,La Tripa,N10120,Los Rojos,1
+E10090,N10084,Los Ardillos,N10120,Los Rojos,1
+E10092,N10088,Los Cabos,N10007,Cártel de Los Arellano Félix,1
+E10093,N10088,Los Cabos,N10013,Cártel de Sinaloa,1
+E10094,N10089,Los Cabrera,N10025,Cártel Jalisco Nueva Generación (CJNG),1
+E10100,N10100,Los Estúpidos,N10119,Los Rodolfos,1
+E10101,N10103,Los Linos,N10120,Los Rojos,1
+E10104,N10118,Los R4,N10030,Cártel Tijuana Nueva Generación,1
+E10106,N10122,Los Rusos,N10113,Los Ninis,1
+E10107,N10126,Los Sinaloas,N10081,La Unión Tepito,1
+E10111,N10133,Los Viagras,N10003,Caballeros Templarios,1
+E10115,N10134,Los Zetas,N10061,Grupo Sombra,1
+E10116,N10135,Maestrin,N10081,La Unión Tepito,1
+E10118,N10139,Nuevo Cártel de Juárez,N10056,"Francisco Javier Arvizo Márquez, El Jaguar",1
+E10119,N10139,Nuevo Cártel de Juárez,N10058,Gente Nueva,1
+E10121,N10147,Tropa del Infierno,N10017,Cártel del Golfo,1
+E10122,N10147,Tropa del Infierno,N10025,Cártel Jalisco Nueva Generación (CJNG),1
+E10123,N10147,Tropa del Infierno,N10150,Zetas Vieja Escuela,1
+E10124,N10150,Zetas Vieja Escuela,N10017,Cártel del Golfo,1
+E10127,N10150,Zetas Vieja Escuela,N10061,Grupo Sombra,1

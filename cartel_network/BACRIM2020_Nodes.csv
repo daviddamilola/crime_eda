@@ -1,0 +1,151 @@
+﻿Node,Group,State,ShortName
+N10001,ACME,Ciudad de México,ACME
+N10002,Banda de El Perro,Ciudad de México,Banda de Perro
+N10003,Caballeros Templarios,Colima,Caballeros Templarios
+N10004,Cártel de Caborca,Sonora,Caborca
+N10005,Cártel de Juárez,Chihuahua,Juárez
+N10006,Cártel de Los Alemanes,San Luis Potosí,Alemanes
+N10007,Cártel de Los Arellano Félix,Querétaro,Arellano Félix
+N10008,Cártel de los Beltrán Leyva,Ciudad de México,Beltrán Leyva
+N10009,Cártel de Los Pantoja Parada,Oaxaca,Pantoja Parada
+N10010,Cártel de Los Tequileros,Guerrero,Tequileros
+N10011,Cártel de Oaxaca,Yucatán,Oaxaca
+N10012,Cártel de Santa Rosa de Lima,Yucatán,Santa Rosa de Lima
+N10013,Cártel de Sinaloa,Durango,Sinaloa
+N10014,Cártel de Telpacatepec,Michoacán,Telpacatepec
+N10015,Cártel de Tláhuac,Ciudad de México,Tláhuac
+N10016,Cártel del Abuelo,Michoacán,Abuelo
+N10017,Cártel del Golfo,Quintana Roo,Golfo
+N10018,Cártel del Golfo Nueva Era,Tamaulipas,Golfo Nueva Era
+N10019,Cártel del Noreste,Campeche,Noreste
+N10020,Cártel del Poniente o La Laguna,Chihuahua,Poniente o Laguna
+N10021,Cártel del Siglo,Veracruz,Siglo
+N10022,Cártel del Sur,Guerrero,Sur
+N10023,Cártel en Nochistlán,Zacatecas,en Nochistlán
+N10024,Cártel Independiente de Acapulco,Guerrero,Independiente de Acapulco
+N10025,Cártel Jalisco Nueva Generación (CJNG),Jalisco,CJNG
+N10026,Cártel Los Epitacio,Yucatán,Epitacio
+N10027,Cártel Nueva Plaza,Guanajuato,Nueva Plaza
+N10028,Cártel Pura Gente Nueva,Campeche,Pura Gente Nueva
+N10029,Cártel San Luis Potosí Nueva Generación (CSLPNG),San Luis Potosí,San Luis Potosí Nueva Generación (CSLPNG)
+N10030,Cártel Tijuana Nueva Generación,Baja California,Tijuana Nueva Generación
+N10031,Cártel Zicuirán Nueva Generación,Michoacán,Zicuirán Nueva Generación
+N10032,Cárteles Unidos,Veracruz,Cárteles Unidos
+N10033,"Célula liderada por Alfonso Arzate García, El Aquiles",Baja California,"Célula liderada por Alfonso Arzate García, Aquiles"
+N10034,Célula liderada por El Balín,Ciudad de México,Célula liderada por Balín
+N10035,CJNG Comando la Mancha,Baja California,CJNG Comando la Mancha
+N10036,Comandante Coronavirus,Quintana Roo,Comandante Coronavirus
+N10037,Durangos/Cazadores,Sonora,Durangos/Cazadores
+N10038,Ejército Revolucionario del Pueblo Insurgente (ERPI),Guerrero,Ejército Revolucionario del Pueblo Insurgente (ERPI)
+N10039,El Araña,Ciudad de México,Araña
+N10040,El Cano,Ciudad de México,Cano
+N10041,El Chepe,Ciudad de México,Chepe
+N10042,El Espárragos,Ciudad de México,Espárragos
+N10043,El H,Ciudad de México,H
+N10044,El Jardinero,Nayarit,Jardinero
+N10045,El Loco Téllez,Puebla,Loco Téllez
+N10046,El Nopa,Ciudad de México,Nopa
+N10047,El Patines,Ciudad de México,Patines
+N10048,El Pechugas,Ciudad de México,Pechugas
+N10049,El Richis,Ciudad de México,Richis
+N10050,El Robert,Ciudad de México,Robert
+N10051,El Señor de la V,Morelos,Señor de la V
+N10052,El Señor de la Virgen,Michoacán,Señor de la Virgen
+N10053,El Señorón,Morelos,Señorón
+N10054,El Temerario,Morelos,Temerario
+N10055,Familia La Cruz,Ciudad de México,Familia Cruz
+N10056,"Francisco Javier Arvizo Márquez, El Jaguar",Chihuahua,"Francisco Javier Arvizo Márquez, Jaguar"
+N10057,Fuerza Anti-Unión Tepito,Ciudad de México,Fuerza Anti-Unión Tepito
+N10058,Gente Nueva,Sinaloa,Gente Nueva
+N10059,Grupo de Narco Rap,Tamaulipas,Grupo de Narco Rap
+N10060,Grupo Élite del CJNG,Guanajuato,Grupo Élite del CJNG
+N10061,Grupo Sombra,Veracruz,Grupo Sombra
+N10062,Güero Fresa,Ciudad de México,Güero Fresa
+N10063,Guerreros Unidos,Guerrero,GuerrerosU
+N10064,Juan Balta,Ciudad de México,Juan Balta
+N10065,"Juan L. (El Moco), líder huachicolero",Tlaxcala,"Juan L. (Moco), líder huachicolero"
+N10066,La Anti-Unión o La Rosa Nueva,Ciudad de México,Anti-Unión o Rosa Nueva
+N10067,La banda de El Tigre,Baja California,banda de Tigre
+N10068,La Banda del Bucanas,Veracruz,Banda del Bucanas
+N10069,La Bandera,Guerrero,Bandera
+N10070,La Barredora 24/7,Sonora,Barredora 24/7
+N10071,La Emperatriz,Sinaloa,Emperatriz
+N10072,La Gran Familia Mexicana,Puebla,Gran Familia Mexicana
+N10073,La Guardia Guerrerense,Guerrero,Guardia Guerrerense
+N10074,La Guera,Chihuahua,Guera
+N10075,La Línea,Chihuahua,Línea
+N10076,La Nueva Familia Michoacana,Ciudad de México,NFMichoacana
+N10077,"La Reina del Sur, Cecilia “V""",Puebla,"Reina del Sur, Cecilia “V"""
+N10078,La Ronda 88 / Fabian R88,Ciudad de México,Ronda 88 / Fabian R88
+N10079,La Tripa,Morelos,Tripa
+N10080,La Unión León,Guanajuato,Unión León
+N10081,La Unión Tepito,Ciudad de México,UTepito
+N10082,Lenin Canchola,Ciudad de México,Lenin Canchola
+N10083,Los Ántrax,Veracruz,Ántrax
+N10084,Los Ardillos,Guerrero,Ardillos
+N10085,Los Artistas Asesinos o Doble A,Chihuahua,Artistas Asesinos o Doble A
+N10086,Los Benjas,Ciudad de México,Benjas
+N10087,Los Blancos de Troya,Michoacán,Blancos de Troya
+N10088,Los Cabos,Baja California,Cabos
+N10089,Los Cabrera,Chihuahua,Cabrera
+N10090,Los Changos,Ciudad de México,Changos
+N10091,Los Chapitos,Baja California,Chapitos
+N10092,Los Chilas,Ciudad de México,Chilas
+N10093,Los Chimales,Sinaloa,Chimales
+N10094,Los Chukys,Oaxaca,Chukys
+N10095,Los Colombianos,Morelos,Colombianos
+N10096,Los Cuinis,Jalisco,Cuinis
+N10097,Los Dámasos/Fuerzas especiales Dámaso,Sinaloa,Dámasos
+N10098,Los Durangos,Guanajuato,Durangos
+N10099,Los Erres,Baja California,Erres
+N10100,Los Estúpidos,Ciudad de México,Estúpidos
+N10101,Los Guerreros,Jalisco,Guerreros
+N10102,Los Jaguares,Sinaloa,Jaguares
+N10103,Los Linos,Morelos,Linos
+N10104,Los Lobos,Sinaloa,Lobos
+N10105,Los Maceros,Ciudad de México,Maceros
+N10106,Los Marcopolos,Ciudad de México,Marcopolos
+N10107,Los Mayas,Ciudad de México,Mayas
+N10108,Los Metros,Tamaulipas,Metros
+N10109,Los Mexicles,Chihuahua,Mexicles
+N10110,Los Mojarras,Ciudad de México,Mojarras
+N10111,Los Molina,Ciudad de México,Molina
+N10112,Los Negros,Ciudad de México,Negros
+N10113,Los Ninis,Sinaloa,Ninis
+N10114,Los Páez,Sonora,Páez
+N10115,Los Papayos,Ciudad de México,Papayos
+N10116,Los Pelones,Quintana Roo,Pelones
+N10117,Los Piña,Veracruz,Piña
+N10118,Los R4,Baja California,R4
+N10119,Los Rodolfos,Ciudad de México,Rodolfos
+N10120,Los Rojos,Ciudad de México,Rojos
+N10121,Los Rudos,Ciudad de México,Rudos
+N10122,Los Rusos,Sinaloa,Rusos
+N10123,Los Salazares,Chihuahua,Salazares
+N10124,Los Salgueiro,Chihuahua,Salgueiro
+N10125,Los Siete Demonios,Sonora,Siete Demonios
+N10126,Los Sinaloas,Ciudad de México,Sinaloas
+N10127,Los Talibanes,San Luis Potosí,Talibanes
+N10128,Los Tanzanios,Ciudad de México,Tanzanios
+N10129,Los Tequileros,Guerrero,Tequileros
+N10130,Los Tlacos (Cartel de la Sierra),Guerrero,Tlacos (Cartel de la Sierra)
+N10131,Los Tlahuicas,Morelos,Tlahuicas
+N10132,Los Treviño,Nuevo León,Treviño
+N10133,Los Viagras,Michoacán,Viagras
+N10134,Los Zetas,Yucatán,Zetas
+N10135,Maestrin,Ciudad de México,Maestrin
+N10136,Mando Sur Gente Nueva,Veracruz,Mando Sur Gente Nueva
+N10137,Mazatlecos,Sinaloa,Mazatlecos
+N10138,MZ,Zacatecas,MZ
+N10139,Nuevo Cártel de Juárez,Chihuahua,Nuevo Juárez
+N10140,Paco Pacas,Ciudad de México,Paco Pacas
+N10141,Pedro Aviles Salazar,Guerrero,Pedro Aviles Salazar
+N10142,Robles,Ciudad de México,Robles
+N10143,Sangre Nueva Zeta,Campeche,Sangre Nueva Zeta
+N10144,Sindicato Libertad,Ciudad de México,Sindicato Libertad
+N10145,Tercera Acción Destructiva (3AD),Ciudad de México,3AD
+N10146,Tláhuac-Barbas,Ciudad de México,Tláhuac-Barbas
+N10147,Tropa del Infierno,Tamaulipas,Tropa del Infierno
+N10148,U o la UVA,Ciudad de México,U o la UVA
+N10149,Unión de Pueblos y Organizaciones del Estado de Guerrero (UPOEG) ,Guerrero,UPOEG
+N10150,Zetas Vieja Escuela,Tamaulipas,Zetas VE
