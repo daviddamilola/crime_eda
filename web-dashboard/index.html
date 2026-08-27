@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flood House &middot; control room</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <h1 id="title">Flood House &middot; control room</h1>
+    <p id="subtitle"></p>
+  </header>
+
+  <main class="layout">
+    <section class="charts">
+      <div class="chart-card">
+        <canvas id="chart-size"></canvas>
+      </div>
+      <div class="chart-card">
+        <canvas id="chart-dead"></canvas>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div class="sliders" id="sliders"></div>
+
+      <pre class="readout" id="readout"></pre>
+
+      <div class="buttons">
+        <button id="btn-pause" type="button">Pause</button>
+        <button id="btn-reset" type="button">Reset</button>
+      </div>
+    </aside>
+  </main>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
