@@ -7,6 +7,7 @@ import {
   ANNUAL_SECURITY_BUDGET_MXN_M,
 } from "./cartel_engine.js";
 import { drawChart } from "./chart.js";
+import { ConflictMap } from "./conflict_viz.js";
 
 // ------------------------------------------------------------------ session
 const ROUND_MINUTES = 2.0; // real time one round lasts
@@ -54,6 +55,8 @@ class Dashboard {
 
   chartSize = document.getElementById("chart-size") as HTMLCanvasElement;
   chartDead = document.getElementById("chart-dead") as HTMLCanvasElement;
+  conflictMap = new ConflictMap(document.getElementById("chart-clashes") as unknown as SVGSVGElement);
+  lastDtWeeks = 0;
   titleEl = document.getElementById("title") as HTMLElement;
   subtitleEl = document.getElementById("subtitle") as HTMLElement;
   readoutEl = document.getElementById("readout") as HTMLElement;
@@ -68,6 +71,7 @@ class Dashboard {
     this.buildSliders();
     this.pauseBtn.addEventListener("click", () => this.toggle());
     this.resetBtn.addEventListener("click", () => this.reset());
+    void this.conflictMap.init(this.you);
     window.setInterval(() => this.frame(), 1000 / FRAMES_PER_SECOND);
     this.redraw();
   }
@@ -114,6 +118,7 @@ class Dashboard {
     this.yDead = [CONFLICT_DEATHS_PER_WEEK_AT_START];
     this.gDead = [CONFLICT_DEATHS_PER_WEEK_AT_START];
     this.marks = [];
+    this.conflictMap.resetAnimationState();
   }
 
   onLever(key: LeverName, value: number): void {
@@ -139,11 +144,13 @@ class Dashboard {
   }
 
   frame(): void {
+    this.lastDtWeeks = 0;
     if (this.running && this.elapsedSeconds < ROUND_SECONDS) {
       const dt = Math.min(1 / FRAMES_PER_SECOND, ROUND_SECONDS - this.elapsedSeconds);
       this.elapsedSeconds += dt;
-      this.you.advanceByWeeks(dt * WEEKS_PER_SECOND);
-      this.ghost.advanceByWeeks(dt * WEEKS_PER_SECOND);
+      this.lastDtWeeks = dt * WEEKS_PER_SECOND;
+      this.you.advanceByWeeks(this.lastDtWeeks);
+      this.ghost.advanceByWeeks(this.lastDtWeeks);
       this.t.push(this.you.weeksElapsed);
       this.ySize.push(this.you.totalMembers);
       this.gSize.push(this.ghost.totalMembers);
@@ -164,6 +171,8 @@ class Dashboard {
       referenceValue: MEMBERS_AT_START,
       referenceLabel: "2022 line — get under it to win",
     });
+
+    this.conflictMap.update(this.you, this.lastDtWeeks, "Active clashes — real 2020 rivalry network");
 
     drawChart(this.chartDead, {
       title: "Killings per week",

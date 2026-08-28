@@ -1,5 +1,6 @@
 import { CartelWorld, LEVER_SPECS, MEMBERS_AT_START, CONFLICT_DEATHS_PER_WEEK_AT_START, ANNUAL_SECURITY_BUDGET_MXN_M, } from "./cartel_engine.js";
 import { drawChart } from "./chart.js";
+import { ConflictMap } from "./conflict_viz.js";
 // ------------------------------------------------------------------ session
 const ROUND_MINUTES = 2.0; // real time one round lasts
 const SIMULATED_YEARS = 10; // history that round represents
@@ -38,6 +39,8 @@ class Dashboard {
         this.marks = [];
         this.chartSize = document.getElementById("chart-size");
         this.chartDead = document.getElementById("chart-dead");
+        this.conflictMap = new ConflictMap(document.getElementById("chart-clashes"));
+        this.lastDtWeeks = 0;
         this.titleEl = document.getElementById("title");
         this.subtitleEl = document.getElementById("subtitle");
         this.readoutEl = document.getElementById("readout");
@@ -49,6 +52,7 @@ class Dashboard {
         this.buildSliders();
         this.pauseBtn.addEventListener("click", () => this.toggle());
         this.resetBtn.addEventListener("click", () => this.reset());
+        void this.conflictMap.init(this.you);
         window.setInterval(() => this.frame(), 1000 / FRAMES_PER_SECOND);
         this.redraw();
     }
@@ -90,6 +94,7 @@ class Dashboard {
         this.yDead = [CONFLICT_DEATHS_PER_WEEK_AT_START];
         this.gDead = [CONFLICT_DEATHS_PER_WEEK_AT_START];
         this.marks = [];
+        this.conflictMap.resetAnimationState();
     }
     onLever(key, value) {
         this.you.setLevers({ [key]: value });
@@ -111,11 +116,13 @@ class Dashboard {
         }
     }
     frame() {
+        this.lastDtWeeks = 0;
         if (this.running && this.elapsedSeconds < ROUND_SECONDS) {
             const dt = Math.min(1 / FRAMES_PER_SECOND, ROUND_SECONDS - this.elapsedSeconds);
             this.elapsedSeconds += dt;
-            this.you.advanceByWeeks(dt * WEEKS_PER_SECOND);
-            this.ghost.advanceByWeeks(dt * WEEKS_PER_SECOND);
+            this.lastDtWeeks = dt * WEEKS_PER_SECOND;
+            this.you.advanceByWeeks(this.lastDtWeeks);
+            this.ghost.advanceByWeeks(this.lastDtWeeks);
             this.t.push(this.you.weeksElapsed);
             this.ySize.push(this.you.totalMembers);
             this.gSize.push(this.ghost.totalMembers);
@@ -135,6 +142,7 @@ class Dashboard {
             referenceValue: MEMBERS_AT_START,
             referenceLabel: "2022 line — get under it to win",
         });
+        this.conflictMap.update(this.you, this.lastDtWeeks, "Active clashes — real 2020 rivalry network");
         drawChart(this.chartDead, {
             title: "Killings per week",
             t: this.t,

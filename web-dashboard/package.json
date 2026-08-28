@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "npx --yes -p typescript tsc",
+    "generate:cartel-data": "node scripts/generate-cartel-data.mjs",
+    "build": "npm run generate:cartel-data && npx --yes -p typescript tsc",
     "watch": "tsc --watch",
     "serve": "npx --yes serve -l 5173 ."
   },

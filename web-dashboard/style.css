@@ -59,6 +59,13 @@ canvas {
   height: 260px;
 }
 
+svg.clash-map {
+  display: block;
+  width: 100%;
+  height: 420px;
+  background: var(--chart-surface);
+}
+
 .panel {
   background: var(--chart-surface);
   border: 1px solid var(--gridline);
@@ -124,6 +131,56 @@ canvas {
 
 .buttons button:hover {
   background: var(--gridline);
+}
+
+.clash-tooltip {
+  position: fixed;
+  z-index: 1000;
+  display: none;
+  max-width: 320px;
+  padding: 10px 12px;
+  background: var(--chart-surface);
+  border: 1px solid var(--gridline);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-primary);
+  pointer-events: none;
+}
+
+.clash-tooltip-title {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.clash-tooltip-meta {
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.clash-tooltip-muted {
+  font-style: italic;
+}
+
+.clash-tooltip-event {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--gridline);
+}
+
+.clash-tooltip-event-head {
+  font-weight: 600;
+}
+
+.clash-tooltip-event-loc {
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.clash-tooltip-event-notes {
+  color: var(--text-secondary);
+  font-size: 0.74rem;
 }
 
 @media (max-width: 820px) {
