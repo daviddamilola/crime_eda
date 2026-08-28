@@ -102,7 +102,7 @@ export const LEVER_SPECS: Record<LeverName, LeverSpec> = {
     displayName: "Recruitment Prevention", affects: "recruitment_rate (down)",
   },
   enforcement_effort: {
-    minimum: 0.5, maximum: 1.85, default: 1.0, annualCostAtMaximum: 102_664,
+    minimum: 0.5, maximum: 2.00, default: 1.0, annualCostAtMaximum: 102_664,
     displayName: "Incapacitate Cartel", affects: "incapacitation_capacity (up)",
   },
   conflict_suppression: {

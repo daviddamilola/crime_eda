@@ -9,12 +9,11 @@ const ROUND_SECONDS = ROUND_MINUTES * 60.0;
 const WEEKS_PER_SECOND = (SIMULATED_YEARS * 52.0) / ROUND_SECONDS;
 const SERIES_YOUR_RUN = "#3987e5";
 const SERIES_DO_NOTHING = "#d95926";
-const LEVER_ORDER = [
-    "recruitment_prevention",
-    "enforcement_effort",
-    "conflict_suppression",
-    "fragmentation_pressure",
-];
+// UI exposes only the paper's two primary policy levers (RQ2): preventive
+// (recruitment) vs. reactive (incapacitation). conflict_suppression and
+// fragmentation_pressure are the paper's ancillary scenarios (§ narcopeace /
+// fragmentation) - still modeled in cartel_engine.ts, just not surfaced here.
+const LEVER_ORDER = ["recruitment_prevention", "enforcement_effort"];
 function signed(n) {
     const rounded = Math.round(n);
     return (rounded >= 0 ? "+" : "") + rounded.toLocaleString();
